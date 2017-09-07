@@ -1,0 +1,29 @@
+body {
+	font-family: Arial,sans-serif;
+	font-size: 20px;
+}
+#menu ul {
+	background: #FFF8DC;
+	padding: 0;
+	list-style-type: none;
+    text-align: center;
+}
+#menu ul li {
+	width: auto;
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #e8e8e8;
+	padding: 0 1em;
+	display: inline-table;
+}
+#menu ul li a {
+	text-decoration: none;
+	color: #333;
+	display: block;
+}
+#menu ul li:hover {
+	background: #CDE2CD;
+}
+#menu ul li a:hover {
+	color: #FF0000;
+}
